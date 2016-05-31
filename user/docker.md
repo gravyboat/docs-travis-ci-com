@@ -143,7 +143,6 @@ Using `after_success` it is also possible to push an image to a registry based
 on the branch:
 
 ```yaml
-#### Branch Based Registry Pushes
 
     after_success:
       - if [ "$TRAVIS_BRANCH" == "master" ]; then
